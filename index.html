@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>璀璨星空的个人主页</title>
+    <meta name="viewport" content="width=device-width">
+	<meta name="article" id="articlelink" content="/technology/jquerynews/20120831-jquery-plugin-bigvideojs/" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bigvideo.css">
+	<link rel="shortcut  icon" type="image/x-icon" href="images\xin.ico" media="screen"  /> 
+</head>
+<body>
+<div class="wrap">
+ <div class="title"><a href="http://starsky.gitcafe.io/" title="您好！欢迎访问璀璨星空的个人主页">璀璨星空 ☯ 无垠宇宙</a>
+ </div>
+	  
+ <div class="subtitle">
+  耐心 谦虚 平静 自由
+ </div>
+ <hr id="hr1" class="hr">
+ 
+ <div class="description">记录天地之间
+ </div>
+ 
+ <hr id="hr2" class="hr">
+ 
+ <div class="box" style="border-radius: 20px;">
+   <a href="http://starsky.gitcafe.io/" title="欢迎访问我的博客" target=“_blank”>ENTER</a>
+ </div>
+
+</div> 
+
+    <!-- BigVideo Dependencies -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="js/video.js"></script>
+
+    <!-- BigVideo -->
+    <script src="js/bigvideo.js"></script>
+
+    <!-- Demo -->
+    <script>
+	    $(function() {
+            var BV = new $.BigVideo();
+			BV.init();
+			BV.show('images/clip.mp4',{ambient:true});
+	    });
+    </script>
+
+</body>
+</html>

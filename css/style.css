@@ -1,0 +1,176 @@
+
+body {
+background-color: #660099;
+font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  -webkit-font-smoothing: antialiased; 
+  
+  }
+
+  
+a {
+  text-decoration: none;
+  color: #fff; 
+  }
+  a:hover {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+     }
+.wrap{
+  position: relative;
+  top: 0px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+
+.title {
+  position: relative;
+  top: 150px;
+  opacity: 0.8;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  color: #eee; 
+  }
+.title:hover{
+	opacity: 1;
+     }
+.subtitle {
+  opacity: 0.8;
+  position: relative;
+  top: 168px;
+  font-size: 1.1em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: #eee;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  }
+.subtitle:hover{
+	opacity: 1;
+     }
+
+
+.hr{
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  transition-duration: 0.6s;
+  opacity: 0.8;
+  background: transparent;
+  }
+
+	 
+#hr1{
+	width: 320px;
+	top: 180px;
+	position: relative;
+	}  
+#hr2{
+	width: 50px;
+	top: 210px;
+	position: relative;
+	} 
+	
+.description {
+  opacity: 0.8;
+  position: relative;
+  top: 195px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  color: #eee;
+  cursor: pointer;
+  }
+
+ .description:hover{
+	opacity: 1;
+     }
+
+
+.box { 
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    text-align: center;
+	position: relative;
+    top: 230px;
+    width:50px;
+    margin:auto;
+    opacity: .7;  /* 方框内文字透明度为0.7 */
+}
+
+.box:hover{
+	border: 1px solid #fff;   
+	/* 方框的边框鼠标划过颜色为白色，也就是透明度为1 */
+	opacity: 1;      /* 方框内文字鼠标划过透明度为1 */
+ }
+
+@media all and (max-width: 960px){
+
+
+.title {
+  font-size: 2em;
+}
+ .subtitle{
+  font-size: 1.2em;
+  }
+
+.description {
+
+  font-size: 14px;
+   }
+
+	 
+.box { 
+  padding: 5px;
+ 
+  width: 50px;
+  font-size: 10px;
+   }
+	
+	
+	
+	
+}
+
+@media all and (max-width: 480px){
+	
+	
+.title {
+  position: relative;
+  top: 130px;
+  font-size: 1.7em;
+}
+ .subtitle{
+  position: relative;
+  top: 140px;
+  font-size: 1.1em;
+  }
+#hr1{
+	width: 220px;
+	top: 150px;
+	position: relative;
+	}  
+.description {
+  position: relative;
+  top: 160px;
+  font-size: 14px;
+   }
+#hr2{
+	width: 50px;
+	top: 170px;
+	position: relative;
+	}  
+	 
+.box { 
+  padding: 5px;
+  position: relative;
+  top: 180px;
+  width: 40px;
+  font-size: 10px;
+   }
+	   
+    }
+
