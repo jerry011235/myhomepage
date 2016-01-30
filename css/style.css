@@ -1,6 +1,5 @@
 
 body {
-background-color: #660099;
 font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   -webkit-font-smoothing: antialiased; 
   
@@ -19,7 +18,7 @@ a {
      }
 .wrap{
   position: relative;
-  top: 0px;
+  top: -10px;
   text-align: center;
   opacity: 0.8;
 }
